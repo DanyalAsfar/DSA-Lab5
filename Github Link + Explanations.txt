@@ -12,4 +12,5 @@ runtime. However, in dynamic allocation, new memory as allocated to each new ele
 stack so more memory operations take place.
 In fixed, static allocation, memory is allocated contiguously while in dynamic allocation,
 the nodes/elements are scattered across the heap memory.
-GitHub Link:
+
+GitHub Link: https://github.com/DanyalAsfar/DSA-Lab5.git
