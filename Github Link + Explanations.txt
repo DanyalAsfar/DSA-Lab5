@@ -1,0 +1,15 @@
+Task 3 Explanation:
+normal nullptr based traversal wouldn't terminate since the "next" of last node does not point to
+nullptr, it instead points back to head pointer and so the cycle continues forever
+
+Task 6:
+LIFO means Last in First Out.
+This means that the last element inserted (e.g in a stack) is the first to be removed
+In fixed capacity, you cannot add more elements if the stack gets full.
+In dynamic allocation, the stack can grow as much (as many values) as you want.
+In fixed capacity, memory is allocated at compile time so no memory operations overhead during 
+runtime. However, in dynamic allocation, new memory as allocated to each new element added to
+stack so more memory operations take place.
+In fixed, static allocation, memory is allocated contiguously while in dynamic allocation,
+the nodes/elements are scattered across the heap memory.
+GitHub Link:
